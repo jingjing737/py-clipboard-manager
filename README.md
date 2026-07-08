@@ -2,11 +2,14 @@
 
 剪贴板历史管理器，macOS/Windows/Linux 通用。
 
-## 快速开始
+### 安装依赖
+
+> ⚠️ **注意**：不要用 `pip3 install`，必须用 `python3 -m pip install` 确保装到正确的 Python 环境。
 
 ```bash
-# 安装依赖（推荐）
-pip3 install pyperclip
+# 安装 pyperclip（跨平台剪贴板）
+python3 -m pip install pyperclip
+```
 
 # 列出最近 10 条历史
 python3 clipboard.py -l
